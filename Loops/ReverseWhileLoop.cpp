@@ -9,7 +9,7 @@ int main()
 
     while (n > 0){
         int lastDig = n % 10;
-        result =  result * 10 + lastDig;
+        result = result * 10 + lastDig;
         n /= 10;
     }
     cout << "Reverse = " << result << endl;
